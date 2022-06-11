@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>England</title>
+  </head>
+  <body class="england">
+    <div class="box1">
+      <h1>Thank you!</h1>
+      <h2>Please enter the names of everyone attending the event and and choose from the menu items for each person and click add. once all are added press submit to send the info to us.</h2>
+
+      <div class="box2">
+        <form action="/action_page.php">
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value=""><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value="">
+          <div class="box3">
+            <h2>Appetisers</h2>
+          <h3>
+            <input type="radio" id="appetiser1" name="appetiser" value="Warm mature cheddar cheese tartlet, pickled grapes, walnuts & watercress">
+            <label for="html">Warm mature cheddar cheese tartlet, pickled grapes, walnuts & watercress</label><br><br>
+            <input type="radio" id="appetiser2" name="appetiser" value="Selection of prawn & crayfish cocktail, smoked haddock fishcake, smoked salmon">
+            <label for="css">Selection of prawn & crayfish cocktail, smoked haddock fishcake, smoked salmon</label><br><br>
+            <input type="radio" id="appetiser3" name="appetiser" value="Leek and potato soup, fennel cream & potato crisp">
+            <label for="javascript">Leek and potato soup, fennel cream & potato crisp</label>
+          </h3>
+          </div>
+          <div class="box3">
+            <h2>Main meals</h2><h3>
+            <input type="radio" id="main1" name="main" value="Pan-fried chicken breast, thyme & sea salt roasted new potatoes, port & shallot jus">
+            <label for="html">Pan-fried chicken breast, thyme & sea salt roasted new potatoes, port & shallot jus</label><br><br>
+            <input type="radio" id="main2" name="main" value="Lamb rump, rosemary & garlic parmentier potatoes, red currant jus">
+            <label for="css">Lamb rump, rosemary & garlic parmentier potatoes, red currant jus</label><br><br>
+            <input type="radio" id="main3" name="main" value="Roast sirloin of beef, fondant potato, yorkshire pudding, red wine jus">
+            <label for="javascript">Roast sirloin of beef, fondant potato, yorkshire pudding, red wine jus</label></h3>
+          </div>
+          <div class="box3">
+            <h2>Desserts</h2><h3>
+            <input type="radio" id="dessert1" name="dessert" value="Warm raspberry frangipane tart, vanilla ice cream, raspberry coulis">
+            <label for="html">Warm raspberry frangipane tart, vanilla ice cream, raspberry coulis</label><br><br>
+            <input type="radio" id="dessert2" name="dessert" value="Sticky toffee pudding, sticky toffee sauce">
+            <label for="css">Sticky toffee pudding, sticky toffee sauce</label><br><br>
+            <input type="radio" id="dessert3" name="dessert" value="Strawberry cheesecake filled with strawberry coulis & topped with Italian meringue, passion fruit">
+            <label for="javascript">Strawberry cheesecake filled with strawberry coulis & topped with Italian meringue, passion fruit</label></h3>
+          </div>
+          <div class="box3">
+                <input type="submit" value="Add"><input type="submit" value="Submit">
+          </div>
+          <div class="box3">
+              <input type="textarea" id="list" name="list">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
